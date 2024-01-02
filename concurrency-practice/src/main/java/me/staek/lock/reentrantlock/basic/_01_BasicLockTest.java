@@ -1,4 +1,4 @@
-package me.staek.lock.reentrantlock;
+package me.staek.lock.reentrantlock.basic;
 
 
 import java.util.concurrent.locks.Lock;
