@@ -36,7 +36,7 @@ class SharedQueue {
  * 두 개의 스레드가 각각 생산과 소비를 반복한다.
  * 생산,소비를 할 수 없을 때의 wait,notify를 이용한 협력을 예시로 구현한 예제이다.
  */
-public class ProduceConsume_OneCondition {
+public class _10_ProduceConsume_OneCondition {
     public static void main(String[] args) {
         SharedQueue sharedQueue = new SharedQueue();
         Thread produce = new Thread(() -> {
