@@ -14,7 +14,7 @@ class NomalClassA {
         }
     }
 }
-public class WrongSynchronized {
+public class _08_WrongSynchronized {
     public static void main(String[] args) {
         new NomalClassA().methodA();
     }
