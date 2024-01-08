@@ -1,4 +1,4 @@
-package me.staek.cas;
+package me.staek.atomic;
 
 /**
  * 스레드 여러개를 생성 후, 공유자원 counting 결과를 출력

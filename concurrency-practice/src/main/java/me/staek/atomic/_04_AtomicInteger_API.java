@@ -1,4 +1,4 @@
-package me.staek.cas;
+package me.staek.atomic;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.IntUnaryOperator;
