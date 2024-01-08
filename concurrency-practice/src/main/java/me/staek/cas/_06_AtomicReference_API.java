@@ -5,7 +5,7 @@ import java.util.function.UnaryOperator;
 
 
 /**
- * AtomicReference
+ * AtomicReference API practice
  *
  * get()
  * set()
