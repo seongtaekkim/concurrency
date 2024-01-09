@@ -1,4 +1,4 @@
-package me.staek.atomic;
+package me.staek.synctools.atomic;
 
 import java.util.concurrent.atomic.AtomicReference;
 
