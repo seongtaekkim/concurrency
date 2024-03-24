@@ -28,8 +28,15 @@ public class _03_Callback {
             callback.onComplete(ret);
         });
 
-        System.out.println("비동기작업 시작");
         service.shutdown();
+        for (int i=0; i<5 ; i++) {
+            System.out.println("메인작업중..");
+            try {
+                Thread.sleep(400);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
 
     static class MyCallback implements Callback {
