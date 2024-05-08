@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 /**
- *
+ * completablefuture - 06_ThenRun
  */
 public class _06_ThenRun {
     public static void main(String[] args) {
